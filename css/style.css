@@ -1,4 +1,13 @@
+/*
+В стилях стоит группировать свойства по какой-нибудь логике
+https://webformyself.com/raznye-logicheskie-sposoby-gruppirovki-css-svojstv/
+ */
 .wrapper {
+    /*
+    А зачем 2 раза margin?
+    Можно же просто
+    margin: 50px auto auto;
+    */
     margin: auto;
     margin-top: 50px;
     display: flex;
